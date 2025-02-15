@@ -12,20 +12,21 @@ A simple **String Calculator** built using **Test-Driven Development (TDD)** wit
 
 ## Installation & Setup
 
-## Clone the Repository
+### Clone the Repository
 ```sh
 git clone https://github.com/riddhim98/String-Calculator-TDD
 cd String-Calculator-TDD
 
 ### Installation
 ```sh
-npm install
+ npm install
 
 ### Run Test
 ```sh
-npm test
+ npm test
 
-## Examples
+### Examples
+```sh
 
 | Input              | Output |
 |--------------------|--------|
@@ -37,5 +38,3 @@ npm test
 | `"//;\n1;2"`      | `3`    |
 | `"//|\n1|2|3"`    | `6`    |
 | `"-1,2,-3"`       | Error: "Negative numbers not allowed: -1, -3" |
-
-
