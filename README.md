@@ -15,14 +15,14 @@ A simple **String Calculator** built using **Test-Driven Development (TDD)** wit
 -   NodeJS
 
 ### Clone the Repository
-git clone https://github.com/riddhim98/String-Calculator-TDD
+-   git clone https://github.com/riddhim98/String-Calculator-TDD
 cd String-Calculator-TDD
 
 ### Installation
-npm install
+-   npm install
 
 ### Run Test
-npm test
+-   npm test
 
 ### Examples
 | Input              | Output |
@@ -33,5 +33,4 @@ npm test
 | `"1,2,3"`         | `6`    |
 | `"1\n2,3"`        | `6`    |
 | `"//;\n1;2"`      | `3`    |
-| `"//|\n1|2|3"`    | `6`    |
 | `"-1,2,-3"`       | Error: "Negative numbers not allowed: -1, -3" |
