@@ -10,24 +10,21 @@ A simple **String Calculator** built using **Test-Driven Development (TDD)** wit
 
 ---
 
-## Installation & Setup
+## Prerequisites
+
+-   NodeJS
 
 ### Clone the Repository
-```sh
 git clone https://github.com/riddhim98/String-Calculator-TDD
 cd String-Calculator-TDD
 
 ### Installation
-```sh
- npm install
+npm install
 
 ### Run Test
-```sh
- npm test
+npm test
 
 ### Examples
-```sh
-
 | Input              | Output |
 |--------------------|--------|
 | `""`              | `0`    |
