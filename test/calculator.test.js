@@ -9,5 +9,8 @@ describe("String Calculator", () => {
     it("should return the number itself when input is a single number", () => {
         expect(add("1")).to.equal(1);
     });
-    
+
+    it("should return sum of two numbers", () => {
+        expect(add("1,5")).to.equal(6);
+    });
 });
